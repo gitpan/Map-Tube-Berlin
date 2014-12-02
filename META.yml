@@ -1,0 +1,28 @@
+---
+abstract: 'interface to the Berlin S- and U-Bahn map'
+author:
+  - 'Slaven Rezic <srezic@cpan.org>'
+build_requires:
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+  File::ShareDir::Install: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 7.02, CPAN::Meta::Converter version 2.142690'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Map-Tube-Berlin
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  File::Share: '0'
+  Map::Tube: '2.26'
+  Moo: '0'
+  namespace::clean: '0'
+resources:
+  repository: https://github.com/eserte/Map-Tube-Berlin.git
+version: '0.01'
