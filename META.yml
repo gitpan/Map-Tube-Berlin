@@ -25,4 +25,4 @@ requires:
   namespace::clean: '0'
 resources:
   repository: https://github.com/eserte/Map-Tube-Berlin.git
-version: '0.02'
+version: '0.03'

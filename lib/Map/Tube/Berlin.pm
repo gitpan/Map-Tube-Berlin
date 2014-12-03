@@ -12,7 +12,7 @@
 
 package Map::Tube::Berlin;
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 =head1 NAME
 
@@ -54,9 +54,17 @@ to I<END> is returned.
 
     print "Route: $route\n";
 
+=head1 NOTES
+
+The XML file was generated using data from the L<BBBike
+project|https://github.com/eserte/bbbike>. A Makefile rule
+C<build-map> for regenerating the XML file exists (assuming that
+BBBike was cloned/extracted into F<$HOME/src/bbbike>.
+
 =head1 BUGS
 
-It's too slow. Using A* would probably improve the performance.
+Station names currently have to match case. See
+L<https://rt.cpan.org/Ticket/Display.html?id=100691>.
 
 =head1 AUTHOR
 
