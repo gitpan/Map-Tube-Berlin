@@ -20,9 +20,9 @@ no_index:
     - inc
 requires:
   File::Share: '0'
-  Map::Tube: '2.26'
+  Map::Tube: '2.38'
   Moo: '0'
   namespace::clean: '0'
 resources:
   repository: https://github.com/eserte/Map-Tube-Berlin.git
-version: '0.04'
+version: '0.05'
